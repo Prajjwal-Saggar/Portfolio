@@ -1,49 +1,27 @@
 import React from "react";
-import api from "../assets/portfolio/api.jpg";
-import apod from "../assets/portfolio/apod.jpg";
-import iptracker from "../assets/portfolio/iptracker.jpg";
-import nftportal from "../assets/portfolio/nftportal.jpg";
-import webpostman from "../assets/portfolio/webpostman.jpg";
-import waveportal from "../assets/portfolio/waveportal.jpg";
-
+import attack from "../assets/Portfolio/attack.png";
+import flikr from "../assets/Portfolio/flikr.png";
+import weather from "../assets/Portfolio/weather.png"
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: api,
-      link: 'https://crypto-info-api.cyclic.app/',
-      repo: 'https://github.com/rahulkarda/crypto-info-api'
+      src: attack,
+      link: 'https://attack-tracker.vercel.app/',
+      repo: 'https://github.com/Prajjwal-Saggar/AttackTracker'
     },
     {
       id: 2,
-      src: webpostman,
-      link: 'https://webpostman.netlify.app/',
-      repo: 'https://github.com/rahulkarda/Web-Postman'
+      src:flikr,
+      link: 'https://prajjwal-saggar.github.io/Flikr_Clone_Desktop_Compatible-/',
+      repo: 'https://github.com/Prajjwal-Saggar/Flikr_Clone_Desktop_Compatible-'
     },
     {
       id: 3,
-      src: apod,
-      link: 'https://apodbyrahul.netlify.app/',
-      repo: 'https://github.com/rahulkarda/NASA-APOD'
-    },
-    {
-      id: 4,
-      src: waveportal,
-      link: 'https://waveatrahul.netlify.app/',
-      repo: 'https://github.com/rahulkarda/Wave-Portal'
-    },
-    {
-      id: 5,
-      src: nftportal,
-      link: 'https://nftportalbyrahul.netlify.app/',
-      repo: 'https://github.com/rahulkarda/NFT-Portal'
-    },
-    {
-      id: 6,
-      src: iptracker,
-      link: 'https://trackmyip.netlify.app/',
-      repo: 'https://github.com/rahulkarda/IP-Address-Tracker'
-    },
+      src:weather,
+      link: 'https://prajjwal-saggar.github.io/Weather_App/',
+      repo: 'https://github.com/Prajjwal-Saggar/Weather_App'
+    }
   ];
 
   return (

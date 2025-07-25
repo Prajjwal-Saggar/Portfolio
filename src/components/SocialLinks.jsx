@@ -2,7 +2,7 @@ import React from "react";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import resume from "../assets/resume.pdf"
+
 const SocialLinks = () => {
   const links = [
     {
@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://linkedin.com/in/rahulkarda2002",
+      href: "https://www.linkedin.com/in/prajjwal-saggar-b06b09316/",
       style: "rounded-tr-md",
     },
     {
@@ -22,7 +22,7 @@ const SocialLinks = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com/rahulkarda",
+      href: "https://github.com/Prajjwal-Saggar",
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ const SocialLinks = () => {
           Email <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:rahulkarda2002@gmail.com",
+      href: "mailto:prajjwalsaggar1@gmail.com",
     },
     {
       id: 4,
@@ -40,7 +40,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: resume,
+      
       download: true,
     },
     {
@@ -50,7 +50,7 @@ const SocialLinks = () => {
           Twitter <FaTwitter size={30} />
         </>
       ),
-      href: "https://twitter.com/rahulkarda2002",
+      href: "https://x.com/PrajjwalSaggar1?t=IpaMBU5xVyCNacqG9Szbcw&s=09",
       style: "rounded-br-md",
     },
   ];
