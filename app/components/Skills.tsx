@@ -11,7 +11,7 @@ const skillCategories = [
       { name: "JavaScript", image: null },
       { name: "TypeScript", image: null },
       { name: "Python", image: null },
-      { name: "C++", image: "/assets/logos/C++ (CPlusPlus).png" },
+      { name: "C++", image: "/assets/logos/cpp.png" },
       { name: "SQL", image: null },
     ],
   },
