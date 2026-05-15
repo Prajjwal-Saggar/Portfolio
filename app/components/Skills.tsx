@@ -9,7 +9,6 @@ const skillCategories = [
     skills: [
       { name: "Java", image: "/assets/logos/Java.png" },
       { name: "JavaScript", image: null },
-      { name: "TypeScript", image: null },
       { name: "Python", image: null },
       { name: "C++", image: "/assets/logos/cpp.png" },
       { name: "SQL", image: null },
@@ -21,8 +20,6 @@ const skillCategories = [
       { name: "React.js", image: "/assets/logos/React_logo_wordmark.png" },
       { name: "Next.js", image: null },
       { name: "React Native", image: null },
-      { name: "HTML5", image: null },
-      { name: "CSS3", image: null },
       { name: "Tailwind CSS", image: "/assets/logos/Tailwind CSS.png" },
     ],
   },
